@@ -14,7 +14,9 @@ Die PDFs können mittels `make` generiert werden. Hierzu wird `xelatex` und eine
 
 ## PDF-A
 
-Zum Generieren eines PDF/A-1b kompatiblen PDFs wird zusätzlich `ghostscript` benötigt. Das PDF kann u.a. mit folgendne Services validiert werden:
+Zum Generieren eines PDF/A-1b kompatiblen PDFs wird zusätzlich `ghostscript` benötigt. Es kann mit `make web-abstract-pdfa.pdf` generiert werden.
+
+Das PDF kann u.a. mit folgenden Services validiert werden:
 
 - [pdf-online.com](https://www.pdf-online.com/osa/validate.aspx)
 - [pdfen.com](https://www.pdfen.com/pdf-a-validator)
