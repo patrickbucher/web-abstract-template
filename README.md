@@ -12,4 +12,9 @@ Der Header auf der zweiten und dritten Seite könnten etwas weniger hoch gemacht
 
 Die PDFs können mittels `make` generiert werden. Hierzu wird `xelatex` und eine umfassende Installation von `texlive` benötigt. Als Schriftarten werden Arial (Vorschrift) und Inconsolata (Monospace-Font) verwendet.
 
-Zum Generieren eines PDF-A 1b kompatiblen PDFs wird zusätzlich `ghostscript` benötigt.
+## PDF-A
+
+Zum Generieren eines PDF/A-1b kompatiblen PDFs wird zusätzlich `ghostscript` benötigt. Das PDF kann u.a. mit folgendne Services validiert werden:
+
+- [pdf-online.com](https://www.pdf-online.com/osa/validate.aspx)
+- [pdfen.com](https://www.pdfen.com/pdf-a-validator)
